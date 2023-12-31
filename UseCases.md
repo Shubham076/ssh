@@ -61,8 +61,9 @@ To securely copy files from local to remote or vice versa:
 
 ### Copying from Local to Remote
 
-`scp -i [path-to-key] [path-to-local-file] user@host:[path_on_host]
-scp localfile.txt user@example.com:/path/to/remote/directory/` 
+```scp -i [path-to-key] [path-to-local-file] user@host:[path_on_host]
+scp localfile.txt user@example.com:/path/to/remote/directory/
+``` 
 
 ### Copying from Remote to Local
 
